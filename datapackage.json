@@ -1,36 +1,46 @@
 {
-  "name": "datapackage-boilerplate",
-  "title": "A Boilerplate Data Package",
-  "profile": "tabular-data-package",
-  "datapackage_version": "1.0.0",
-  "last_modified": "2022-01-01",
-  "licenses": [
+  "resources": [
     {
-      "name": "ODC-PDDL-1.0",
-      "path": "http://opendatacommons.org/licenses/pddl/",
-      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+      "name": "lohnanalyse_ch_geschlecht",
+      "type": "table",
+      "path": "lohnanalyse_ch_geschlecht.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Berufsbezeichnung",
+            "type": "string"
+          },
+          {
+            "name": "Jährlicher Durchschnitt Männlich (Brutto)",
+            "type": "number"
+          },
+          {
+            "name": "Jährlicher Durchschnitt Weiblich (Brutto)",
+            "type": "number"
+          },
+          {
+            "name": "Diskrepanz",
+            "type": "number"
+          }
+        ]
+      }
     }
   ],
-  "maintainers": [
+  "licenses": [
     {
-      "title": "School of Data CH",
-      "web": "https://schoolofdata.ch/"
+      "name": "PDDL",
+      "title": "Open Data Commons Public Domain Dedication and License (PDDL)",
+      "path": "https://opendatacommons.org/licenses/pddl/"
     }
   ],
   "sources": [
     {
-      "name": "Sample Data Source",
-      "web": "http://www..."
-    }
-  ],
-  "resources": [
-    {
-      "name": "sample-resource-1"
-      "path": "data/some-good-data.csv",
-      "profile": "tabular-data-resource",
-      "schema": {
-        "fields": []
-      }
+      "title": "Lohnanalyse.ch",
+      "path": "https://www.lohnanalyse.ch/ch/service/impressum.html"
     }
   ]
 }
