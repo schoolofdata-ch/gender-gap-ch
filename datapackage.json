@@ -1,0 +1,36 @@
+{
+  "name": "datapackage-boilerplate",
+  "title": "A Boilerplate Data Package",
+  "profile": "tabular-data-package",
+  "datapackage_version": "1.0.0",
+  "last_modified": "2022-01-01",
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "maintainers": [
+    {
+      "title": "School of Data CH",
+      "web": "https://schoolofdata.ch/"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Sample Data Source",
+      "web": "http://www..."
+    }
+  ],
+  "resources": [
+    {
+      "name": "sample-resource-1"
+      "path": "data/some-good-data.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": []
+      }
+    }
+  ]
+}
