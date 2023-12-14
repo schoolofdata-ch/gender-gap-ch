@@ -1,9 +1,9 @@
 {
   "resources": [
     {
-      "name": "lohnanalyse_ch_geschlecht",
+      "name": "lohnanalysech-geschlecht",
       "type": "table",
-      "path": "lohnanalyse_ch_geschlecht.csv",
+      "path": "data/lohnanalyse_ch_geschlecht.csv",
       "scheme": "file",
       "format": "csv",
       "mediatype": "text/csv",
@@ -32,9 +32,9 @@
   ],
   "licenses": [
     {
-      "name": "PDDL",
-      "title": "Open Data Commons Public Domain Dedication and License (PDDL)",
-      "path": "https://opendatacommons.org/licenses/pddl/"
+      "name": "Not yet licensed",
+      "title": "Not yet licensed",
+      "path": "https://opendatacommons.org/"
     }
   ],
   "sources": [
